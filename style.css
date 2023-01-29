@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.wrapper
+{
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 1000px;
+}
+
+.nav
+{
+    background-color: #336;
+}
+
+.nav ul
+{
+    display: flex;
+    color: #fff;
+}
+
+.nav ul li
+{
+    padding: 15px;
+}
+
+.nav ul li:hover
+{
+    background-color: #ccff;
+    cursor: pointer;
+}
+/*fdsdf*/
+.nav ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav ul li.active
+{
+    color: rgb(0, 99, 180);
+    background-color: #ccc;
+}
+
+#section
+{
+    display:flex
+}
+
+#section.center
+{
+    align-items: center;
+    flex-direction: column;
+}
+
+.side-nav
+{
+    width: 320px;
+    border: 1px solid black;
+}
+
+.side-nav ul li
+{
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.content
+{
+    padding: 20px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    width: 700px;
+    background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
+
+.card
+{
+    border: 1px solid black;
+    margin: 15px;
+    width: 200px;
+    border-radius: 5px;
+}
